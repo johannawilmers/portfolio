@@ -1,0 +1,26 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.wrapper {
+  margin: 16px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.rightLinks {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
