@@ -14,13 +14,13 @@ function Navbar() {
           <a className={s.link} href="#about">
             About me
           </a>
-          <a className={s.link} href="#about">
+          <a className={s.link} href="#projects">
             Projects
           </a>
-          <a className={s.link} href="#about">
-            Work
+          <a className={s.link} href="#work">
+            Work experience
           </a>
-          <a className={s.link} href="#about">
+          <a className={s.link} href="#voulentarywork">
             Voulentary work
           </a>
         </div>

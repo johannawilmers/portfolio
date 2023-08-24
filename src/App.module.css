@@ -31,11 +31,19 @@
   justify-content: center;
   margin: 0 auto;
 }
-
+.projects {
+  background-color: #f4ede87c;
+  padding-top: 64px;
+}
 .contentWrapper {
   display: grid;
   max-width: 800px;
   min-height: 100vh;
   place-content: center;
-  margin: 0 16px;
+  margin: 0 auto;
+}
+
+.work {
+  min-height: 100vh;
+  place-content: center;
 }

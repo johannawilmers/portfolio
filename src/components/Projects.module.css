@@ -1,0 +1,13 @@
+.projectImg {
+  max-height: 200px;
+}
+
+.projectDiv {
+  margin: auto;
+}
+
+.projectsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

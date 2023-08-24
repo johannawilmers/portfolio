@@ -1,6 +1,9 @@
 import s from "./App.module.css";
 import portraitUrl from "./assets/portrait1.png";
 import Navbar from "./components/Navbar";
+import Work from "./components/Work";
+import Projects from "./components/Projects";
+import Voulentarywork from "./components/Voulentarywork";
 
 function App() {
   return (
@@ -21,23 +24,31 @@ function App() {
         <div className={s.contentWrapper}>
           <h1>About me</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum. culpa qui
-            officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum. culpa qui officia deserunt mollit anim id est
-            laborum.
+            Hello, my name is Johanna and this is my first portfolio page. I am
+            currently studying informatics at my third year at NTNU in
+            Trondheim. This webpage is made with React, Typescript, and module
+            CSS as a hobby project to learn more about new technologies. It is a
+            webpage about me, what I do, and who I am. It's my second built
+            React webpage. My React skills are mostly self-taught, so don't be
+            harsh. You can check out the repository for this webpage unnder
+            "projects".
           </p>
+        </div>
+      </div>
+      <div className={s.projects} id="projects">
+        <div className={s.contentWrapper}>
+          <Projects />
+        </div>
+      </div>
+
+      <div className={s.work} id="work">
+        <div className={s.contentWrapper}>
+          <Work />
+        </div>
+      </div>
+      <div className={s.work} id="voulentarywork">
+        <div className={s.contentWrapper}>
+          <Voulentarywork />
         </div>
       </div>
     </main>
