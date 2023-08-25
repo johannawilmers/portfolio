@@ -1,3 +1,5 @@
+import s from "./Cv.module.css";
+
 type voulentaryExperiences = {
   title: string;
   place: string;
@@ -76,7 +78,7 @@ function Work() {
       <h1>Voulentary work</h1>
       <div>
         {allVoulentaryExperiences.map((experience) => (
-          <div>
+          <div className={s.experience}>
             <h3>{experience.title}</h3>
             <h5>{experience.place}</h5>
             <p>{experience.duration}</p>

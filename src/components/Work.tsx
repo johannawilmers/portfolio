@@ -1,3 +1,4 @@
+import s from "./Cv.module.css";
 type workExperiences = {
   title: string;
   place: string;
@@ -55,13 +56,11 @@ function Work() {
       <h1>Work experience</h1>
       <div>
         {allWorkExperiences.map((experience) => (
-          <div>
-            <div>
-              <h3>{experience.title}</h3>
-              <h5>{experience.place}</h5>
-              <p>{experience.duration}</p>
-              <p>{experience.description}</p>
-            </div>
+          <div className={s.experience}>
+            <h3>{experience.title}</h3>
+            <h5>{experience.place}</h5>
+            <p>{experience.duration}</p>
+            <p>{experience.description}</p>
           </div>
         ))}
       </div>

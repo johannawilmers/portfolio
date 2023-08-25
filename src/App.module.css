@@ -46,4 +46,5 @@
 .work {
   min-height: 100vh;
   place-content: center;
+  padding-top: 64px;
 }
