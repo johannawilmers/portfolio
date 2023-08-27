@@ -76,7 +76,7 @@ function Work() {
   return (
     <>
       <h1>Voulentary work</h1>
-      <div>
+      <div className={s.experiences}>
         {allVoulentaryExperiences.map((experience) => (
           <div className={s.experience}>
             <h3>{experience.title}</h3>

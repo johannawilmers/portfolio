@@ -54,7 +54,7 @@ function Work() {
   return (
     <>
       <h1>Work experience</h1>
-      <div>
+      <div className={s.experiences}>
         {allWorkExperiences.map((experience) => (
           <div className={s.experience}>
             <h3>{experience.title}</h3>

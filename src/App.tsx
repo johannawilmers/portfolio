@@ -26,13 +26,16 @@ function App() {
           <p>
             Hello, my name is Johanna and this is my first portfolio page. I am
             currently studying informatics at my third year at NTNU in
-            Trondheim. This webpage is made with React, Typescript, and module
-            CSS as a hobby project to learn more about new technologies. It is a
-            webpage about me, what I do, and who I am. It's my second built
+            Trondheim. This webpage is made with React, Typescript, and CSS
+            modules as a hobby project to learn more about web technologies. It
+            is a webpage about me, what I do, and who I am. It's my second built
             React webpage. My React skills are mostly self-taught, so don't be
             harsh. You can check out the repository for this webpage unnder
             "projects".
           </p>
+          <a href="https://www.linkedin.com/in/johanna-wilmers-02a580221/?originalSubdomain=no">
+            Add me on linkedin!
+          </a>
         </div>
       </div>
       <div className={s.projects} id="projects">

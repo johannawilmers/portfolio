@@ -1,3 +1,11 @@
-.experience {
-  padding-bottom: 36px;
+.experiences {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.experience h3,
+.experience h5,
+.experience p {
+  margin: 0;
 }
