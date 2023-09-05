@@ -15,7 +15,7 @@ function App() {
 
           <div>
             <h1>Johanna Wilmers</h1>
-            <p>3. klasse Batchelor i Informatikk, NTNU</p>
+            <p>3. klasse Bachelor i Informatikk, NTNU</p>
             <p>21 år</p>
           </div>
         </div>
