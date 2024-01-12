@@ -3,6 +3,8 @@ import fitshareUrl from "../assets/fitshare.png";
 import periodtrackerUrl from "../assets/periodtracker.png";
 import quarantinehotelUrl from "../assets/quarantinehotel.png";
 import portfolioUrl from "../assets/portfolio.png";
+import moviemingleUrl from "../assets/moviemingle.png";
+import wineopediaUrl from "../assets/wineopedia.png";
 
 type Project = {
   title: string;
@@ -11,6 +13,18 @@ type Project = {
 };
 
 const allProjects: Project[] = [
+  {
+    title: "Moviemingle",
+    description:
+      "Moviemingle was the second and final project in IT2810. The project is a fullstack application with our own database and backend. The user interface is made with React, TypeScript and Material UI. The entire project is set up with Vite. The project has a custom developed GraphQL API, and there is a MongoDB database set up by the group. ",
+    imageUrl: moviemingleUrl,
+  },
+  {
+    title: "Wineopedia",
+    description:
+      "Wineopedia was the first project in IT2810. The data is fetched from Vinmonopolet's API. The application was made with React, TypeScript, vite, React Query and Material UI",
+    imageUrl: wineopediaUrl,
+  },
   {
     title: "Portfolio",
     description:
