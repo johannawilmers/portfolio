@@ -8,6 +8,13 @@ type workExperiences = {
 
 const allWorkExperiences: workExperiences[] = [
   {
+    title: "Summer internship",
+    place: "Wilmers messtechnik GmbH",
+    duration: "May 2024- July 2024",
+    description:
+      "In the summer of 2024, I worked as a full-stack developer on the project 'Bluemoni'—a web app for displaying weather measurements with real-time data. The project utilized Python for the backend and HTML, CSS, and JavaScript for the frontend. I gained valuable knowledge both in technical skills and collaboration.",
+  },
+  {
     title: "Teaching Assistant in IT2805",
     place: "NTNU, Trondheim",
     duration: "August 2022-",

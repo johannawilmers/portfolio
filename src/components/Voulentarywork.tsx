@@ -11,13 +11,13 @@ const allVoulentaryExperiences: voulentaryExperiences[] = [
   {
     title: "Financial manager",
     place: "Student organization, Online",
-    duration: "March 2023-",
+    duration: "March 2023- March 2024",
     description:
       "I have the main responsibility for the finances of online. This includes, among other things, creating a budget, accounting, submitting VAT notices and outsourcing.",
   },
   {
     title: "Member of the board",
-    duration: "March 2023 -",
+    duration: "March 2023 - March 2024",
     place: "Student organization, Online",
     description:
       "I sit on the board as financial manager for the line association. The Executive Board is responsible for the overall operation of the line association.",
