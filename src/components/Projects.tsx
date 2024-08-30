@@ -14,6 +14,18 @@ type Project = {
 
 const allProjects: Project[] = [
   {
+    title: "Summer internship- Bluemoni",
+    description:
+      "My summer project focused on developing a dashboard designed to display live measurement data in real-time. The project required a robust backend, so I primarily used Python to handle data processing and integration tasks. For the frontend, I worked with JavaScript, HTML, and CSS to create an intuitive and responsive user interface. This combination of technologies allowed me to bridge the gap between efficient data handling and user-friendly design. Through this project, I not only enhanced my technical skills but also gained significant experience in full-stack development, particularly in balancing backend functionality with frontend usability. The knowledge and insights I acquired have been invaluable, and I feel well-prepared to tackle similar challenges in the future",
+    imageUrl: "",
+  },
+  {
+    title: "Kvaliteket",
+    description:
+      "For my bachelor’s thesis, I collaborated with Trondheim Municipality to develop a search engine aimed at improving information retrieval within their internal procedures. The project was undertaken by a team of seven students, allowing us to work closely together and gain hands-on experience in effective teamwork and collaboration. This project not only sharpened my technical skills in building search functionalities but also provided me with invaluable insights into the dynamics of working within a team to achieve a common goal. The experience has significantly contributed to my ability to work effectively in collaborative environments.",
+    imageUrl: "",
+  },
+  {
     title: "Moviemingle",
     description:
       "Moviemingle was the second and final project in IT2810. The project is a fullstack application with our own database and backend. The user interface is made with React, TypeScript and Material UI. The entire project is set up with Vite. The project has a custom developed GraphQL API, and there is a MongoDB database set up by the group. ",
